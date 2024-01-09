@@ -10,6 +10,8 @@ function createServer(port, address) {
   app.listen(port, address, () => {
     console.log('Hello World!');
   });
+
+  return app;
 }
 
 module.exports = {
