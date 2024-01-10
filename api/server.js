@@ -7,6 +7,11 @@ function createServer(port, address) {
     res.send('OK');
   });
 
+  app.get('/greet', (req, res) => {
+    const { name } = req.query;
+    res.send({ msg: `Welcome ${name}!` });
+  })
+
   app.listen(port, address, () => {
     console.log('Hello World!');
   });
