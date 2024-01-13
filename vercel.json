@@ -1,6 +1,2 @@
 {
-  "rewrites": [
-    { "source": "/api/v1/(.*)", "destination": "/api" },
-    { "source": "/4537/lab-0", "destination": "/public/index.html" }
-  ]
 }
