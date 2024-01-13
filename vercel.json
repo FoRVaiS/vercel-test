@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/comp4537/labs/0", "destination": "/" }
+    { "source": "/comp4537/labs/0/.*", "destination": "/.*" }
   ]
 }
