@@ -2,5 +2,5 @@
   "rewrites": [
     { "source": "/comp4537/labs/0/(.*)", "destination": "/" }
   ],
-  "trailingSlash": "true"
+  "trailingSlash": true
 }
