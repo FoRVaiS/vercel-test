@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/comp4537/labs/0/:path(.*)", "destination": "/:path*" },
+    { "source": "/comp4537/labs/0/:path(.*)", "destination": "/lab0/:path*" },
     { "source": "/api/v1/(.*)", "destination": "/api" }
   ],
   "trailingSlash": true
